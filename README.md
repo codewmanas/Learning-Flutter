@@ -3,7 +3,7 @@
 ###
 
 <div align="center">
-  <img height="210" src="https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,quality=60,width=1440,f=auto,fit=cover/aptitude-images/aptitude/category/v2/webps/flutter-banner-desktop.webp"  />
+  <img width="full" src="https://static.placementpreparation.io/cdn-cgi/image/metadata=keep,quality=60,width=1440,f=auto,fit=cover/aptitude-images/aptitude/category/v2/webps/flutter-banner-desktop.webp"  />
 </div>
 
 ###
