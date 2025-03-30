@@ -15,6 +15,7 @@ class _CurrencyConvertorMaterialPageState extends State<CurrencyConvertorMateria
 
     super.initState();
   }
+  @override
   Widget build(BuildContext context) {
     
     return Scaffold(
@@ -25,7 +26,7 @@ class _CurrencyConvertorMaterialPageState extends State<CurrencyConvertorMateria
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Text(
-              'INR ${result}',
+              'INR $result',
               style: const TextStyle(
                 fontSize: 40,
                 fontWeight: FontWeight.bold,

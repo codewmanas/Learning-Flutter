@@ -6,6 +6,8 @@ void main() => runApp(MyApp());
 
 
 class MyApp extends StatefulWidget {
+  const MyApp({super.key});
+
   @override
   _MyState createState() => _MyState();
 }
@@ -27,7 +29,8 @@ class _MyState extends State<MyApp> {
   }
 
 
-Widget build(BuildContext context) {
+@override
+  Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',

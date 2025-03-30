@@ -6,6 +6,8 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return CupertinoApp(
@@ -16,6 +18,8 @@ class MyApp extends StatelessWidget {
 }
 
 class CalculatorHomePage extends StatefulWidget {
+  const CalculatorHomePage({super.key});
+
   @override
   _CalculatorHomePageState createState() => _CalculatorHomePageState();
 }

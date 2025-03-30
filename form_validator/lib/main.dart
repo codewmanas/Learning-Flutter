@@ -5,6 +5,8 @@ void main() => runApp(MyApp());
 
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -20,6 +22,8 @@ class MyApp extends StatelessWidget {
 
 // Create a Form widget.
 class MyCustomForm extends StatefulWidget {
+  const MyCustomForm({super.key});
+
   @override
   MyCustomFormState createState() => MyCustomFormState();
 }

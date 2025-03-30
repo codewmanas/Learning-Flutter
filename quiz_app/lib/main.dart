@@ -27,6 +27,9 @@ class MyApp extends StatelessWidget {
 
 
 class FirstScreen extends StatefulWidget {
+  const FirstScreen({super.key});
+
+  @override
   _FirstScreenState createState() => _FirstScreenState();
 }
 
@@ -42,13 +45,13 @@ class _FirstScreenState extends State<FirstScreen> {
               style: TextStyle(fontSize: 30)),
         );
       case 1:
-        return new HTMLQuiz();
+        return HTMLQuiz();
       case 2:
-        return new ScoreScreen();
+        return ScoreScreen();
 
 
       default:
-        return new Text("Error");
+        return Text("Error");
     }
   }
 
@@ -88,6 +91,8 @@ class _FirstScreenState extends State<FirstScreen> {
 
 // Create the state for the RadioListTile example
 class HTMLQuiz extends StatefulWidget {
+  const HTMLQuiz({super.key});
+
   @override
   _HTMLQuizState createState() => _HTMLQuizState();
 }
@@ -170,7 +175,7 @@ class _HTMLQuizState extends State<HTMLQuiz> {
           ),
           ElevatedButton(onPressed: __displayanswer, child: Text("Submit")),
           Text(
-            '$_answer',
+            _answer,
             style: const TextStyle(fontSize: 25),
           ),
         ],
@@ -181,6 +186,8 @@ class _HTMLQuizState extends State<HTMLQuiz> {
 
 
 class ScoreScreen extends StatelessWidget {
+  const ScoreScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
